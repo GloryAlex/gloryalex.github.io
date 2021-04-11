@@ -58,7 +58,7 @@ MathJax.Hub.Queue(function() {
 <li><code>service()</code>方法结束，线程要么结束，要么回到容器管理的线程池。请求和响应对象的可以被回收。</li>
 </ol>
 <p>其实非常简单。servlet只有一个状态：初始化。一个servlet要么未被<code>init()</code>，要么正在被<code>init()</code>，要么正在被<code>destroy()</code>，或者还不存在。 其生命周期如下图所示：</p>
-<img  src=http://www.plantuml.com/plantuml/svg/VP2zYW8n4CVxFCMKMjmBM8XWUzqLLySuOhXyI38AsrhvLGiMmdcDLobRYOYFatKVm-YkeY1sm_n_yvja6fwuexvMy8Lke93WKtPG948Xyp_IzBZZ6hGrLdITrGZa-iZGaAG4lh4LDlkm-0VkWQmMd5WS82baZnkwAK_fuGBufkBUCs4DENlTfmP8ORlFqzKrBsZ62XDyrCkH6eJ9RtuyHWzZmY4dlCCFRD69y6WPrjCmcxzXf95KgRvABeKK6CEozPHcutM-ceNDNpRQvTjTbWvVETheunUJw2Yh-tCRQDhns6S0>
+<img  src=http://www.plantuml.com/plantuml/svg/VP2_JW9148VxUOefjR2nj30aj7OMrkimXetxX-mE9DTQeLARK9W83LQGgmWnFCwUznWkt44q8NQJ-NtppUvqegWWGslmbiF8iE2DVc0go314KeRn4kAZTWCLb4NhdQT-y9PHmf21dMWfy8xlqtAJff-e8egtf0JoW6ZI0-NaeFukltP0x1eL8v1t4ln-hncnfDMcBcVxlA416XDUNBSZLvXUFkhjDdi0AB0IFiA_sAQJuV5xMhocoTi_Z7PQpivF9Rj24-UmRVr9g-T5FPkavRmQh-lLkYgVJZbw7FCNY-neg-DpE-nw-UW_>
 <p>因此，在它的生命周期中有三个重要时刻：</p>
 <div class="table-container">
 <table>
@@ -117,7 +117,7 @@ MathJax.Hub.Queue(function() {
 </li>
 </ol>
 <h2 id="请求和响应对象"><a href="#请求和响应对象" class="headerlink" title="请求和响应对象"></a>请求和响应对象</h2><p>Servlet的请求和响应是通过操作传给它的请求和响应对象来实现的。它们是<code>service()</code>方法的参数。</p>
-<img  src=http://www.plantuml.com/plantuml/svg/VLJDRjD04BxxAVQOI3IzHnmALQKWfJJ4GHmGXuqzIKpj7RCx6r5-f1u0YKfmQU4022eEl40FRVCuo0clmTIEmpfriIpjUhwPRxxvaRSCIKqsYJsp7wbKQfc811K64uq92D8Ml4WHw94CGFYWfp5G7vvPCFJI4_oCWUuGwMXe2He-NzIusTuRFeM0IdmRcK5H5zIO9erccmbBw9vABN4Ko8I19RzZBFsw6CYuXvgguRqhmS3oLfcBynf-dm_3iJlA9g0bHQXodytDLgkLe0R1RXCCsSTxxLJS8Kflg3glwZcdo6kgvjr6t8_oXCNjyPCIwO0CRvJxm88-A4pNA7qmXbMplT2KVvNWRYw-6bDVMjqqJOhAmAgmktOq0kr7By1fjbcDSN2G_Xlq5ADm3L-EcGCTc6dtBDNCshMMdezqT3NIPhl7IPPVLUcLiRZoPHWM7MyKXoE1eKhpXUATkBMyJsLiNMTG0ORGXp3IlCWF-zqooEguqcK3AjpH6lLQmTmFdoHPuzYvXEekYTklDZPgTinRgwt6hm0yJo61628H9W97DLnjCV_vVNvqcitUPHU7sUnhTl6nCnZq5j_Upz-U_VdoPl7vSd7swRz4HJ9cElumdvrabp-OQN5w_llm5x_U5hU0_o1_0G00>
+<img  src=http://www.plantuml.com/plantuml/svg/VLJDRjD04BxxAVQOI3ILUemu5AfAGGeqn44S48UDFKbCxHspEnjHVgGU00aakF1p00HL3ts17jhcSP0JNeEf7OTrwc9PslLyCzzyyoDl6vAQR19x9f0nY2tFx4SgbLec8a65mKHZ0eAq1IzI17ea0n0-w6aCr8Ud5Wozy0G_Ow1RH3eQMeA6pnSrRhRtXayWe1BVGMPGr0KrfacZsMR24hgZKaiS1J9XOCdl64k_BhBC7cggXlSk1GFBMsKkpYluFJuCn-ugcu2M5A7AVJOtMwrMWXe4kqqmP1_lbLDnXoYzfkgygcUS8g-fcdS7SJ_A4nQtHuzBf0Col5RkVGlwe31TeVJ165RDza9J_bM2TtFnrPZwqkgcQL9K1bQ5tRQZ4MW_UWvEiyrgZ8E3zD-WfnY5Q_Xop1pem4oxPwbcrgwrz7oeeykHDjizJhBygaglZCMLByEmw7YZE1m935MQBnJln8tbVIfZwpg32Z24FeIHvaL-qE-MGLR7bIuRKE6krgZN2kP--2J96iVE9LHtITnykR5HisFUMcqrVWNWUGe9n129C14ugk5gY_dnp_dxespsDZi_p6RVi_EFdS6Wj_ZnRlxczC-trukl5ulJB_ybAf8nqwSFyzddxE8NCosEpduVdl3hRNCB-4_o5m00>
 <p>这些类的实现由容器开发商来负责的，它们的具体类型不用你关心，只用知道它们肯定实现了以上接口就行了。</p>
 <h3 id="HTTP方法"><a href="#HTTP方法" class="headerlink" title="HTTP方法"></a>HTTP方法</h3><p>客户的请求总是包括一个特定的HTTP方法，如果是GET, 那<code>service()</code>就会调用<code>doGet()</code>方法；如果是POST, 那就是<code>doPost()</code>方法。 HTTP 1.1<br>协议共规定了8种不同的方法，每种Servlet都有对应的<code>doXXX()</code>实现（不过大部分情况下你只会用到GET和POST方法）。</p>
 <div class="table-container">

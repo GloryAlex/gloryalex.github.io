@@ -46,7 +46,7 @@ MathJax.Hub.Queue(function() {
 </blockquote>
 <h2 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h2><p>web应用的目录结构要求非常严格，因此移动一个web应用是很麻烦的。</p>
 <p>我们知道java应用可以被部署为jar文件。web应用也能被这样部署为war文件，是WebArchive的缩写。它的结构和jar文件有相似之处：</p>
-<img  src=http://www.plantuml.com/plantuml/svg/JL9BJiCm4Dtd55RtoH5GWvIABj9D8x6U9fFYufzi1yYU6o1MI1o12o2E0xq6ZcCxsSH-RzwCtnjbQoneEt163EedXlRwyVNxytxzVllxVCtC8nKAD732fP3jWvOSYTK3Phra7MhoZ2TGoaHOZwLI4MpkgzjyVzXj29X9I4MVIdNLbAd6qS9KT4Pe3wqbcy5W0-VYOfGNE6ZXxD1AKfU7_QuwDaKTXe2WFHhBqoEk9HbZz1IlBGDZqAn6EM_52sVHfxkktndlG7GCTU4RlQXDStifCnIMsf5SG6TX7IJFRy8k_DVZc79XmauMOiaPn7FZacpkSAJFbj2KBe6Gm74E15Dp9IOFvyIimPHbYw9pFyC_>
+<img  src=http://www.plantuml.com/plantuml/svg/JL8xJiGm4Erp2clxfE00Q8EK5Lja6o9HpoQJnOj_iXqWFJT0L4WSWGiWZWDx3Hp7TjB4Vc_UZDyRPMiiQ3jmHWpg9uRsyl7r-_D--Nxx-tpDJ0iCoLLc7gbGe84JBeLi7xJaIAmUCEibwr2JPpo2KYR2UYoLYc1pNzta-yDkGy1CGYhwLAghfamrZXQceZD4UsWjsGm66pWLPwEym44B9uTMaheyx7VLNLFKOGW8sgEnF3tYMf8nHe_nsZ8m1irgbFDMl70MVRhh-ftn5aJ7K1U-qOlQDBUNCaDXgHt96NGMra7o_3himdyzZYaN9kna8PQSGJmtBidc3aVwR0bDwH882HpdG30rLsBoS4xC6anPjYWwzrFy0m00>
 <p>war文件就是web应用的一个快照。它采用了一种更具有可移植性的压缩格式，本质上就是将web应用的所有内容压缩起来，并指定为war拓展名。至于其上下文，通常取决于容器。例如，在Tomcat中，war文件的文件名就是web应用名。<br>war文件的另一个好处是可以声明库依赖性。你可以在war文件的META-INF/MANIFEST.MF文件中声明库依赖，这样一来在部署时就能检查容器中是否有依赖的包和类，避免到了用户请求时才发现没有资源的尴尬。</p>
 <p>部署静态页面时，如果不放在META-INF文件夹下，就能从外部直接访问。类似的，如果放在META-INF路径下，就不能从外界直接访问。不过，这儿的资源可以为应用内部的类或者文件访问，也可以用来转发。顺便一提，WEB-INF也具有同样的特征。直接访问WEB-INF路径下的任意文件都会得到一个404错误。</p>
 <h2 id="Servlet-映射"><a href="#Servlet-映射" class="headerlink" title="Servlet 映射"></a>Servlet 映射</h2><p>每个Servlet映射都由两部分组成，<code>&lt;servlet&gt;</code>元素定义一个servlet名和类，而<code>&lt;servlet-mapping&gt;</code><br>则定义映射到这个servlet的URL模式。这个URL模式可能是虚拟的，它包括真实的物理结构和虚拟的逻辑结构。</p>

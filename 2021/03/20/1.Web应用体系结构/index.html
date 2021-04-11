@@ -42,7 +42,7 @@ MathJax.Hub.Queue(function() {
   }
 });</script><link rel="preload" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css"><link rel="preload" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="A-Grain-Of-Sands" type="application/atom+xml">
 </head><body><div class="mask-border"></div><div class="head"><div class="head__inner"><h1><a href="/">A-Grain-Of-Sands</a></h1><p>a little site, a few techies</p></div></div><div class="paper-container"><div class="main"><div class="location-bar"><div class="line-1"><div class="horizontal-line" style="height: 3px"></div></div><div class="line-2"><div class="horizontal-line" style="height: 1px"></div></div><p class="text">1. Web应用体系结构</p><div class="switch-button"><input class="container_toggle" type="checkbox" id="switch" name="mode"><label for="switch">Toggle</label></div><div class="line-3"><div class="horizontal-line" style="height: 1px"></div></div></div><div class="main__2-col"><article class="post-view__article"><div class="article__infomation"><div class="posts-item"><h2 class="posts-item__title"><a href="">1. Web应用体系结构</a></h2><span class="post__date">2021-03-20</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a></div></div><div class="article__content"><blockquote>
-<p>本文是我的 <em>Head First Servlet &amp; JSP 2nd Edition </em> 读书笔记。你可以在这里找到更多信息：<a target="_blank" rel="noopener" href="https://www.oreilly.com/library/view/head-first-servlets/9780596516680/">https://www.oreilly.com/library/view/head-first-servlets/9780596516680/</a></p>
+<p>本文是我的 <em>Head First Servlet &amp; JSP 2nd Edition</em> 读书笔记。你可以在这里找到更多信息：<a target="_blank" rel="noopener" href="https://www.oreilly.com/library/view/head-first-servlets/9780596516680/">https://www.oreilly.com/library/view/head-first-servlets/9780596516680/</a></p>
 </blockquote>
 <h2 id="什么是Servlet"><a href="#什么是Servlet" class="headerlink" title="什么是Servlet"></a>什么是Servlet</h2><p>Web服务器非常擅长提供静态内容：用户只要请求一个特定的URL，服务器就能马上返回这个内容。但有时候我们需要的不仅是静态内容，比如，你希望你的页面上显示当前的时间，这应该怎么做？这一类页面称为即时页面，即</p>
 <blockquote>
@@ -58,14 +58,14 @@ MathJax.Hub.Queue(function() {
 <li>声明式安全。利用容器，你可以使用XML的形式描述你的安全配置，而不必硬编码到Servlet中。</li>
 </ul>
 <h2 id="MVC模式"><a href="#MVC模式" class="headerlink" title="MVC模式"></a>MVC模式</h2><p>MVC模式的全称是模型-视图-控制器模式。业务逻辑不应该放在Servlet中——它应该被放在“模型”里。模型通常是一个可重用的Java类，是业务数据（比如购物车的状态）和处理这些数据的方法（或规则）的组合。MVC模式并不是web应用特有的。事实上，在大部分应用中，将业务逻辑和表示相分离都是非常重要的！</p>
-<img  src=http://www.plantuml.com/plantuml/svg/JOv12i9034NtEKKkKYdYofNW2T9Ej8CpYMH-XTxUiNJXyZ_UWpysI62jXTehsrj2AbStdvVmgenObOe-m72E_5p0AOVEo6uqko6ySDFu50Mf8MFhUT92II2JDENBcIPVBKbiVBtVY0wTX-5qkF_af-nqNpqUrLB_zmK0>
+<img  src=http://www.plantuml.com/plantuml/svg/JOv12i9034NtEKNEuBvIn9KhmHEaCz4EPXB9f49ltx5quV8_teC_jY2FfGgqHC9uWlOk-Y6dYjNKqknM6SCN1k5dO1XwUSs1kJYdAAQGJCDDiB5_XGDOeyJQyym2cO8cQepN2qosQ2PVyVQu0nmw3iFvSF_9JzdfldeyikR-SmC0>
 <h3 id="教程：创建一个简单的Web应用"><a href="#教程：创建一个简单的Web应用" class="headerlink" title="教程：创建一个简单的Web应用"></a>教程：创建一个简单的Web应用</h3><ol>
 <li><p><strong>需求</strong>：我们的Web应用是一个啤酒顾问。用户访问这个应用，先问一个问题，然后会得到有用的建议。</p>
 </li>
 <li><p><strong>架构</strong>：虽然它是一个很小的应用，但我们还是要用MVC架构。这样一来，即使以后要扩展它，我们也能从容不迫。</p>
 </li>
 </ol>
-<img  src=http://www.plantuml.com/plantuml/svg/NP11RW8n34NtEOMLFJr2XP1w0auGPZmGoCGZnrE145ANtIAnwGrOiKMeKcz3MsxHZ8TIr6niVpz_MnacSInj7KnQ-DWuTZNK5AcOCTK8mYsQW9M04B2VpWHAprY8fsXS8SHWltRxpzUZ1PUWJSYcoXu8zdmudT_sTcqWlqZbJRgyl7z_R9KlA8hpCGzrKEL3XXXJ6-HXdXf5-bBx7SqKm8wHdmEAzbEVAu1HlAp0ZX3vQTaWzyWabsPZJ7ST30QFTsjlcUfw_Z_jr_yQLLF3U-5wP1-oyBTWYB7Cl_i3>
+<img  src=http://www.plantuml.com/plantuml/svg/NP1DJWCn38NtFeMLVLbm05GXSG9E43AUDf29Huwd0Y6aBjaYiU46NR5528dRb9zRaF6KKf6DxUVFzbFcHRteq2KemIV2OoXNCVTUV8STPmvBuOvGPI18r2egeyJ5Kh69Ga4ZP_11MT1zFcu-xbyS-e938O6sxY1qs-VNxTF6tGBMbxdPIz_hjw_t1-C3P_Knrw4HQcCrueJAaFJeilI6JANrHreueJidMILIwvSfDu2oHhr1TqeaPzSzoOHSr1Bk04PtE9kT79pTPwQR_N_Qx_vTDCqM7WexarEemj-1EUMc_l8F>
 <ol>
 <li><p><strong>创建开发环境</strong>：此次采用Tomcat@8作为容器，在IntelliJ Idea中进行开发。</p>
 <ol>
