@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><meta name="description" content=" [ A-Grain-Of-Sands ] "><meta name="theme-color" content="#ebc65a"><title> [ A-Grain-Of-Sands ] </title><style>@font-face {
+<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><meta name="description" content="2. Servlet请求和响应 [ A-Grain-Of-Sands ] "><meta name="theme-color" content="#ebc65a"><title>2. Servlet请求和响应 [ A-Grain-Of-Sands ] </title><style>@font-face {
   font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
@@ -15,7 +15,20 @@
 </style><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/index.css"><script src="https://cdn.bootcss.com/highlight.js/9.6.0/highlight.min.js" defer></script><script src="/js/paper.js" defer></script><script src="https://www.googletagmanager.com/gtag/js?id=xx-xxxxxxx-xx" async></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'xx-xxxxxxx-xx');</script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script><script type="text/javascript">MathJax.Hub.Config({
+gtag('config', 'xx-xxxxxxx-xx');</script><link rel="stylesheet" href="/css/tocbot.css"><script src="/js/tocbot.js" defer></script><script>window.addEventListener('DOMContentLoaded', () => {
+  tocbot.init({
+    // Where to render the table of contents.
+    tocSelector: '.toc__content',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: '.article__content',
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    // For headings inside relative or absolute positioned containers within content.
+    hasInnerContainers: true,
+    orderedList: false,
+    collapseDepth: 2,
+  });
+})</script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script><script type="text/javascript">MathJax.Hub.Config({
   tex2jax: {
     inlineMath: [ ['$','$'], ["\\(","\\)"] ],
     processEscapes: true,
@@ -28,4 +41,197 @@ MathJax.Hub.Queue(function() {
       all[i].SourceElement().parentNode.className += ' has-jax';
   }
 });</script><link rel="preload" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css"><link rel="preload" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="A-Grain-Of-Sands" type="application/atom+xml">
-</head><body><div class="mask-border"></div><div class="head"><div class="head__inner"><h1><a href="/">A-Grain-Of-Sands</a></h1><p>a little site, a few techies</p></div></div><div class="paper-container"><div class="home-view"><div class="main"><div class="location-bar"><div class="line-1"><div class="horizontal-line" style="height: 3px"></div></div><div class="line-2"><div class="horizontal-line" style="height: 1px"></div></div><p class="text">首页</p><div class="switch-button"><input class="container_toggle" type="checkbox" id="switch" name="mode"><label for="switch">Toggle</label></div><div class="line-3"><div class="horizontal-line" style="height: 1px"></div></div></div><div class="main__2-col"><div class="posts"><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/04/11/7.%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E5%8C%85%E8%A3%85%E5%99%A8/">7. 过滤器和包装器</a></h2><span class="post__date">2021-04-11</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/04/06/6.Web%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8/">6. Web应用安全</a></h2><span class="post__date">2021-04-06</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/04/05/5.%E9%83%A8%E7%BD%B2web%E5%BA%94%E7%94%A8/">5.部署web应用</a></h2><span class="post__date">2021-04-05</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/03/29/4.%20%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86/">4. 会话管理</a></h2><span class="post__date">2021-03-29</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/03/27/3.%20%E5%B1%9E%E6%80%A7%E5%92%8C%E7%9B%91%E5%90%AC%E8%80%85/">3. 属性和监听者</a></h2><span class="post__date">2021-03-27</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/03/25/2.%20Servlet%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94/">2. Servlet请求和响应</a></h2><span class="post__date">2021-03-25</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/03/20/1.Web%E5%BA%94%E7%94%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/">1. Web应用体系结构</a></h2><span class="post__date">2021-03-20</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a></div></div><div class="sidebar"><h2>Links</h2><div class="sidebar__link"><ul><li><a target="_blank" rel="noopener" href="https://github.com/gloryalex">Github</a></li><li><a href="mailto:gloryxie@icloud.com">Mail</a></li><li><a href="/atom.xml">Rss</a></li></ul></div><h2>Archives</h2><div class="sidebar__archives"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li></ul></div><h2>Categories</h2><div class="sidebar__categories"><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></li></ul></div><h2>Tags</h2><div class="sidebar__tags"><ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/HeadFirstServlet/" rel="tag">HeadFirstServlet</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaWeb/" rel="tag">JavaWeb</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Servlet/" rel="tag">Servlet</a></li></ul></div></div></div><div class="horizontal-line" style="height: 1px"></div><div class="main__bottom"><div class="paginator"><span class="page-number current">1</span></div></div></div></div></div><div class="footer"><span>©️2019-2021 Designed By&nbsp;<strong><a target="_blank" rel="noopener" href="https://github.com/random-yang">RandomYang</a></strong> Powered By&nbsp;</span><strong><a target="_blank" rel="noopener" href="https://hexo.io">hexo</a></strong></div><div class="darkmode-mask" id="darkmode-mask"></div><div class="sidebar__button"></div></body></html>
+</head><body><div class="mask-border"></div><div class="head"><div class="head__inner"><h1><a href="/">A-Grain-Of-Sands</a></h1><p>a little site, a few techies</p></div></div><div class="paper-container"><div class="main"><div class="location-bar"><div class="line-1"><div class="horizontal-line" style="height: 3px"></div></div><div class="line-2"><div class="horizontal-line" style="height: 1px"></div></div><p class="text">2. Servlet请求和响应</p><div class="switch-button"><input class="container_toggle" type="checkbox" id="switch" name="mode"><label for="switch">Toggle</label></div><div class="line-3"><div class="horizontal-line" style="height: 1px"></div></div></div><div class="main__2-col"><article class="post-view__article"><div class="article__infomation"><div class="posts-item"><h2 class="posts-item__title"><a href="">2. Servlet请求和响应</a></h2><span class="post__date">2021-03-25</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a></div></div><div class="article__content"><blockquote>
+<p>本文是我的 <em>Head First Servlet &amp; JSP 2nd Edition </em> 读书笔记。你可以在这里找到更多信息：<a target="_blank" rel="noopener" href="https://www.oreilly.com/library/view/head-first-servlets/9780596516680/">https://www.oreilly.com/library/view/head-first-servlets/9780596516680/</a></p>
+</blockquote>
+<h2 id="Servlet生命周期"><a href="#Servlet生命周期" class="headerlink" title="Servlet生命周期"></a>Servlet生命周期</h2><p>Servlet的生命周期受容器的控制，通常Servlet的一生会遵循这样的流程：</p>
+<ol>
+<li>用户点击链接，URL指向一个Servlet</li>
+<li>容器创建对应的对象：<ol>
+<li><code>HttpServletRequest</code></li>
+<li><code>HttpServletResponse</code></li>
+</ol>
+</li>
+<li>容器根据URL查找正确的Servlet并为这个请求创建或分配一个线程，并调用Servlet的<code>service()</code>方法</li>
+<li><code>service()</code>方法根据客户端发来的HTTP方法确定要调用哪个servlet方法(<code>doGet()</code>,<code>doPost()</code>)</li>
+<li>servlet创建响应对象并写回响应。响应通过容器发送</li>
+<li><code>service()</code>方法结束，线程要么结束，要么回到容器管理的线程池。请求和响应对象的可以被回收。</li>
+</ol>
+<p>其实非常简单。servlet只有一个状态：初始化。一个servlet要么未被<code>init()</code>，要么正在被<code>init()</code>，要么正在被<code>destroy()</code>，或者还不存在。 其生命周期如下图所示：</p>
+<img  src=http://www.plantuml.com/plantuml/svg/VP2zYW8n4CVxFCMKMjmBM8XWUzqLLySuOhXyI38AsrhvLGiMmdcDLobRYOYFatKVm-YkeY1sm_n_yvja6fwuexvMy8Lke93WKtPG948Xyp_IzBZZ6hGrLdITrGZa-iZGaAG4lh4LDlkm-0VkWQmMd5WS82baZnkwAK_fuGBufkBUCs4DENlTfmP8ORlFqzKrBsZ62XDyrCkH6eJ9RtuyHWzZmY4dlCCFRD69y6WPrjCmcxzXf95KgRvABeKK6CEozPHcutM-ceNDNpRQvTjTbWvVETheunUJw2Yh-tCRQDhns6S0>
+<p>因此，在它的生命周期中有三个重要时刻：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>何时调用</th>
+<th>作用</th>
+<th>是否能被覆盖</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>init()</code></td>
+<td>servlet实例被创建后，在能够为客户提供服务前，由容器调用</td>
+<td>初始化servlet</td>
+<td>有可能。如果你需要初始化（比如连接到数据库或向其他对象注册），你就得覆盖<code>init()</code>方法。</td>
+</tr>
+<tr>
+<td><code>service()</code></td>
+<td>当第一个客户请求到来时，容器分配线程并调用</td>
+<td>查看请求、确定HTTP方法并调用对应的servlet方法</td>
+<td>不太可能。不应该覆盖此方法。</td>
+</tr>
+<tr>
+<td><code>doGet()</code>或<code>doPost()</code></td>
+<td>由<code>service()</code>方法调用</td>
+<td>处理业务逻辑</td>
+<td>至少要覆盖其中之一，取决于实际业务。如果没有覆盖，就相当于告诉容器该servlet不支持此HTTP方法。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Servlet以单例模式运行。如果有多个请求到来，每次容器都会创建一个新线程并调用servlet的<code>service()</code>方法。通常，有多少请求就有多少线程在运行。 servlet类不会有多个实例，但是<strong><br>容器会运行多个线程来处理对一个servlet的多个请求</strong>。对应每个客户请求，都会生成一对新的请求和响应对象。</p>
+<h3 id="加载和初始化"><a href="#加载和初始化" class="headerlink" title="加载和初始化"></a>加载和初始化</h3><p>servlet的加载和初始化由容器完成。服务器启动后，容器会自动寻找已部署的Web应用，并搜索Servlet类文件。此后容器会加载类，至于时机，可能是容器启动时，或者在客户首次使用到这个Servlet时，时机取决于容器的配置。我们要记住的是，在<code>init()</code><br>方法完成前绝不能运行<code>service()</code>方法。</p>
+<blockquote>
+<p>通常，<code>init()</code>总是在第一个<code>service()</code>调用前完成。</p>
+</blockquote>
+<p>创建后的Servlet还只是一个普通对象，而不是一个Servlet。它还需要一些东西来初始化。二者的主要区别就在于Servlet持有两个特定的对象：</p>
+<ol>
+<li><p><code>ServletConfig</code> 对象</p>
+<ul>
+<li>每个Servlet都持有一个<code>ServletConfig</code>对象</li>
+<li>用于向servlet传递<em>部署时信息</em>，比如数据库或企业bean查找名之类的</li>
+<li>用于访问<code>ServletContext</code></li>
+<li>通常在部署描述文件中配置</li>
+</ul>
+</li>
+<li><p><code>ServletContext</code> 对象</p>
+<ul>
+<li>每个Web应用都持有一个<code>ServletContext</code>对象，也叫<code>AppContext</code>对象</li>
+<li>用于访问Web应用参数</li>
+<li>相当于Web应用的公告栏，里面会存放属性，应用的其他部分可以访问</li>
+<li>用于得到服务器信息，比如容器名、容器版本、支持的API版本等</li>
+</ul>
+</li>
+</ol>
+<h2 id="请求和响应对象"><a href="#请求和响应对象" class="headerlink" title="请求和响应对象"></a>请求和响应对象</h2><p>Servlet的请求和响应是通过操作传给它的请求和响应对象来实现的。它们是<code>service()</code>方法的参数。</p>
+<img  src=http://www.plantuml.com/plantuml/svg/VLJDRjD04BxxAVQOI3IzHnmALQKWfJJ4GHmGXuqzIKpj7RCx6r5-f1u0YKfmQU4022eEl40FRVCuo0clmTIEmpfriIpjUhwPRxxvaRSCIKqsYJsp7wbKQfc811K64uq92D8Ml4WHw94CGFYWfp5G7vvPCFJI4_oCWUuGwMXe2He-NzIusTuRFeM0IdmRcK5H5zIO9erccmbBw9vABN4Ko8I19RzZBFsw6CYuXvgguRqhmS3oLfcBynf-dm_3iJlA9g0bHQXodytDLgkLe0R1RXCCsSTxxLJS8Kflg3glwZcdo6kgvjr6t8_oXCNjyPCIwO0CRvJxm88-A4pNA7qmXbMplT2KVvNWRYw-6bDVMjqqJOhAmAgmktOq0kr7By1fjbcDSN2G_Xlq5ADm3L-EcGCTc6dtBDNCshMMdezqT3NIPhl7IPPVLUcLiRZoPHWM7MyKXoE1eKhpXUATkBMyJsLiNMTG0ORGXp3IlCWF-zqooEguqcK3AjpH6lLQmTmFdoHPuzYvXEekYTklDZPgTinRgwt6hm0yJo61628H9W97DLnjCV_vVNvqcitUPHU7sUnhTl6nCnZq5j_Upz-U_VdoPl7vSd7swRz4HJ9cElumdvrabp-OQN5w_llm5x_U5hU0_o1_0G00>
+<p>这些类的实现由容器开发商来负责的，它们的具体类型不用你关心，只用知道它们肯定实现了以上接口就行了。</p>
+<h3 id="HTTP方法"><a href="#HTTP方法" class="headerlink" title="HTTP方法"></a>HTTP方法</h3><p>客户的请求总是包括一个特定的HTTP方法，如果是GET, 那<code>service()</code>就会调用<code>doGet()</code>方法；如果是POST, 那就是<code>doPost()</code>方法。 HTTP 1.1<br>协议共规定了8种不同的方法，每种Servlet都有对应的<code>doXXX()</code>实现（不过大部分情况下你只会用到GET和POST方法）。</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>方法名</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td>得到所请求URL上的某资源</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>要求服务器接受附加到请求体的信息，并提供所请求URL上的某资源。POST就像是个扩展版的GET方法</td>
+</tr>
+<tr>
+<td>HEAD</td>
+<td>获取GET返回结果的首部部分</td>
+</tr>
+<tr>
+<td>TRACE</td>
+<td>要求请求消息回送，以使客户端能看到服务器接收到的内容</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>指出要将所包含的信息体放在请求的URL上</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>指出删除所请求URL上的资源</td>
+</tr>
+<tr>
+<td>OPTIONS</td>
+<td>要求得到所请求URL所能响应的所有HTTP方法</td>
+</tr>
+<tr>
+<td>CONNECT</td>
+<td>请求连接以建立隧道</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="HTTP请求"><a href="#HTTP请求" class="headerlink" title="HTTP请求"></a>HTTP请求</h3><p>由于我们主要只会乃至GET和POST方法，因此深入了解这两种方法是很有很必要的。</p>
+<h4 id="GET和POST辨析"><a href="#GET和POST辨析" class="headerlink" title="GET和POST辨析"></a>GET和POST辨析</h4><p>POST和GET方法的根本区别在于，POST有消息体。虽然它们都能发送参数，但GET的参数必须写在请求行上。因此导致了以下区别：</p>
+<ol>
+<li>数据大小。POST能发送很大的信息，而GET的参数受限于URL的最大长度。</li>
+<li>安全性。GET的参数会显示在浏览器的地址栏内，安全性受限。</li>
+<li>书签。GET请求可以用来建立书签，但POST不行。</li>
+<li>幂等性。GET请求（按规范）是幂等的，而POST不是。</li>
+</ol>
+<h4 id="什么是幂等性？"><a href="#什么是幂等性？" class="headerlink" title="什么是幂等性？"></a>什么是幂等性？</h4><blockquote>
+<p>A request method is considered “idempotent” if the intended effect on the server of multiple identical requests with that method is the same as the effect for a single such request. Of the request methods defined by this specification, PUT, DELETE, and safe request methods are idempotent.</p>
+</blockquote>
+<p>幂等性意味着一个操作执行多次和执行一次的结果是一样的。这意味着即使发生了多次请求，也不会有<strong>不好</strong>的副作用！按HTTP规范，GET, PUT,<br>DELETE等方法都是幂等的，但是POST不是。POST提交的数据可能用于不可逆的事务，所以使用时要特别小心。当然，你也可以实现一个非幂等的GET方法……但是客户的GET请求本身是幂等的。</p>
+<p><strong>注意</strong>：幂等只是说明同一个请求可以多次执行得到一样的结果，但并不意味着会得到一样的响应，也不意味着完全没有副作用。</p>
+<p>你可以在HTML文件中指定表单以POST形式发送：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;post&quot;</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;../SelectBeer.do&quot;</span>&gt;</span><br>      <span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Select beer characteristics<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span><br>      Color:<br>      <span class="hljs-tag">&lt;<span class="hljs-name">select</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;color&quot;</span> <span class="hljs-attr">size</span>=<span class="hljs-string">&quot;1&quot;</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;light&quot;</span>&gt;</span>light<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;amber&quot;</span>&gt;</span>amber<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;brown&quot;</span>&gt;</span>brown<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;dark&quot;</span>&gt;</span>dark<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span><br>      <span class="hljs-tag">&lt;/<span class="hljs-name">select</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;submit&quot;</span> /&gt;</span><br> <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span><br></code></pre></td></tr></table></figure>
+<p>注意，如果你没有指定method的话，默认调用的是GET方法。而你如果又没有在Servlet中覆盖<code>doGet()</code>方法的话……那可就麻烦了。也许你会想要同时支持这两个方法。这时你可以只实现<code>doGet()</code>方法，然而在<code>doPost()</code><br>中调用<code>doGet()</code>方法。</p>
+<p>在Servlet类中，你可以像这样获取参数值：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doGet</span><span class="hljs-params">(HttpServletRequest req, HttpServletResponse resp)</span> <span class="hljs-keyword">throws</span> ServletException, IOException </span>&#123;<br>        String singleParam = req.getParameter(<span class="hljs-string">&quot;color&quot;</span>);<span class="hljs-comment">//获取只有一个值的参数</span><br>  			String[] sizes = req.getParameterValues(<span class="hljs-string">&quot;size&quot;</span>);<span class="hljs-comment">//获取可能有多个值的参数</span><br>    &#125;<br></code></pre></td></tr></table></figure>
+<p>除了参数外，你也可以获取许多别的信息，比如<code>getHeader()</code>, <code>getCookies()</code>, <code>getSession()</code>还有<code>getMethod()</code><br>等。取决于你的需求。如果POST请求的信息体很大，可以使用<code>getInputStream()</code>来获取输入流并调用其他对象进行处理。</p>
+<p>以下是几个容易弄混的方法：</p>
+<ul>
+<li><code>getServerPort()</code>: 得到请求原来发送到的端口（监听端口）</li>
+<li><code>getRemotePort()</code>: 得到客户的端口</li>
+<li><code>getLocalPort()</code>: 得到请求最后发送到的端口（处理线程的本地端口）</li>
+</ul>
+<h3 id="HTTP响应"><a href="#HTTP响应" class="headerlink" title="HTTP响应"></a>HTTP响应</h3><p>响应就是向用户写回信息。通常的使用方法是从响应对象上得到输出流，然后写回HTML或其他内容。大致的步骤是：</p>
+<ol>
+<li>首先你需要调用<code>setContentType()</code>方法，用于告诉浏览器你要发回什么，以便浏览器做出正确的举止。所谓内容类型，就是MIME类型，它必须被添加到首部。</li>
+<li>之后你需要输出内容。你可以选择<strong>字符</strong>或<strong>字节</strong>。ServletResponse接口提供了两个流：<ol>
+<li>ServletOutputStream: 用于输出字符</li>
+<li>PrintWriter: 用于输出字节</li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>PrintWriter实际上是ServletOutputStream的一个装饰者类，为其添加了更高层的字符友好方法。</p>
+</blockquote>
+<p>响应首部有多种方法可以设置：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>行为</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>req.addHeader(“foo”,”bar”)</td>
+<td>为响应增加一个新首部和值，或者问一个现有的首部<strong>增加</strong>另一个值</td>
+</tr>
+<tr>
+<td>req.setHeader(“foo”,”bar)</td>
+<td>如果响应中已有同名的首部，则用新值<strong>覆盖</strong>掉。否则添加一个新首部</td>
+</tr>
+<tr>
+<td>req.setIntHeader(“foo”,42)</td>
+<td>一个便利方法，省得再转换一次</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="重定向"><a href="#重定向" class="headerlink" title="重定向"></a>重定向</h3><p>有时候你可能需要定位到另一个URL, 或者分派给另一个web应用。这时你可以使用重定向方法：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">if</span>(workForMe)&#123;<span class="hljs-comment">//handle it&#125;</span><br><span class="hljs-keyword">else</span> response.sendRedirect(<span class="hljs-string">&quot;http://www.java.com&quot;</span>)<br></code></pre></td></tr></table></figure>
+<p>如果使用相对URL, 容器也会自动建立完整的URL。相对URL有两种形式：以”/“开头和不以”/“开关。</p>
+<ul>
+<li>不以”/“开头：比如”foo/stuff.html”。容器会基于当前URL建立完整URL: <code>www.xxx.com/myApp/cool/foo/stuff.html</code></li>
+<li>以”/“开头：比如”/foo/stuff.html”。容器会基于web应用本身建立完整URL: <code>www.xxx.com/foo/stuff.html</code></li>
+</ul>
+<p>注意：如果写入响应后，再调用重定向方法就会抛出<code>IllegalStateException</code>异常。重定向和请求分派并不相同。重定向是servlet完成，而请求分派是由容器完成。</p>
+</div></article><div class="post-view__sidebar"><div class="sidebar"><div class="tocbot"><h2>Toc</h2><div class="toc__content"></div></div><h2>Links</h2><div class="sidebar__link"><ul><li><a target="_blank" rel="noopener" href="https://github.com/gloryalex">Github</a></li><li><a href="mailto:gloryxie@icloud.com">Mail</a></li><li><a href="/atom.xml">Rss</a></li></ul></div><h2>Archives</h2><div class="sidebar__archives"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li></ul></div><h2>Categories</h2><div class="sidebar__categories"><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></li></ul></div><h2>Tags</h2><div class="sidebar__tags"><ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/HeadFirstServlet/" rel="tag">HeadFirstServlet</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaWeb/" rel="tag">JavaWeb</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Servlet/" rel="tag">Servlet</a></li></ul></div></div></div></div><div class="horizontal-line" style="height: 1px"></div><div class="main__bottom"><div class="pre-next"><a class="pre-button" href="/2021/03/27/3.%20%E5%B1%9E%E6%80%A7%E5%92%8C%E7%9B%91%E5%90%AC%E8%80%85/">3. 属性和监听者</a><a class="next-button" href="/2021/03/20/1.Web%E5%BA%94%E7%94%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/">1. Web应用体系结构</a></div></div></div></div><div class="footer"><span>©️2019-2021 Designed By&nbsp;<strong><a target="_blank" rel="noopener" href="https://github.com/random-yang">RandomYang</a></strong> Powered By&nbsp;</span><strong><a target="_blank" rel="noopener" href="https://hexo.io">hexo</a></strong></div><div class="darkmode-mask" id="darkmode-mask"></div><div class="sidebar__button"></div></body></html>
