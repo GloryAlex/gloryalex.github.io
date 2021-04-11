@@ -6,7 +6,7 @@
   <link href="http://gloryalex.github.io/atom.xml" rel="self"/>
   
   <link href="http://gloryalex.github.io/"/>
-  <updated>2021-04-11T11:12:26.350Z</updated>
+  <updated>2021-04-11T14:01:30.225Z</updated>
   <id>http://gloryalex.github.io/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>7. 过滤器和包装器</title>
-    <link href="http://gloryalex.github.io/2021/04/11/7.%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E5%8C%85%E8%A3%85%E5%99%A8/"/>
-    <id>http://gloryalex.github.io/2021/04/11/7.%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E5%8C%85%E8%A3%85%E5%99%A8/</id>
+    <title>一. 创建和销毁对象</title>
+    <link href="http://gloryalex.github.io/2021/04/11/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1/"/>
+    <id>http://gloryalex.github.io/2021/04/11/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1/</id>
     <published>2021-04-10T16:00:00.000Z</published>
-    <updated>2021-04-11T11:12:26.350Z</updated>
+    <updated>2021-04-11T14:01:30.225Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文是我的 &lt;em&gt;Effective Java 3rd Edition&lt;/em&gt; 读书笔记。本书翻译较差，建议阅读英文版。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;1-用静态工厂代替构造器&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="EffectiveJava" scheme="http://gloryalex.github.io/tags/EffectiveJava/"/>
+    
+    <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>7. 过滤器和包装器</title>
+    <link href="http://gloryalex.github.io/2021/04/10/7.%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E5%8C%85%E8%A3%85%E5%99%A8/"/>
+    <id>http://gloryalex.github.io/2021/04/10/7.%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E5%8C%85%E8%A3%85%E5%99%A8/</id>
+    <published>2021-04-09T16:00:00.000Z</published>
+    <updated>2021-04-11T13:28:23.750Z</updated>
     
     
       
@@ -51,7 +81,7 @@
     <link href="http://gloryalex.github.io/2021/04/06/6.Web%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8/"/>
     <id>http://gloryalex.github.io/2021/04/06/6.Web%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8/</id>
     <published>2021-04-05T16:00:00.000Z</published>
-    <updated>2021-04-11T09:41:44.963Z</updated>
+    <updated>2021-04-11T13:29:24.703Z</updated>
     
     
       
@@ -77,11 +107,11 @@
   </entry>
   
   <entry>
-    <title>5.部署web应用</title>
+    <title>5.部署Web应用</title>
     <link href="http://gloryalex.github.io/2021/04/05/5.%E9%83%A8%E7%BD%B2web%E5%BA%94%E7%94%A8/"/>
     <id>http://gloryalex.github.io/2021/04/05/5.%E9%83%A8%E7%BD%B2web%E5%BA%94%E7%94%A8/</id>
     <published>2021-04-04T16:00:00.000Z</published>
-    <updated>2021-04-11T11:12:37.098Z</updated>
+    <updated>2021-04-11T11:20:38.169Z</updated>
     
     
       
