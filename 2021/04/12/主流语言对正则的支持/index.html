@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><meta name="description" content="Tag: HeadFirstServlet [ A-Grain-Of-Sands ] "><meta name="theme-color" content="#ebc65a"><title>Tag: HeadFirstServlet [ A-Grain-Of-Sands ] </title><style>@font-face {
+<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><meta name="description" content="主流语言对正则的支持 [ A-Grain-Of-Sands ] "><meta name="theme-color" content="#ebc65a"><title>主流语言对正则的支持 [ A-Grain-Of-Sands ] </title><style>@font-face {
   font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
@@ -15,7 +15,20 @@
 </style><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/index.css"><script src="https://cdn.bootcss.com/highlight.js/9.6.0/highlight.min.js" defer></script><script src="/js/paper.js" defer></script><script src="https://www.googletagmanager.com/gtag/js?id=xx-xxxxxxx-xx" async></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'xx-xxxxxxx-xx');</script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script><script type="text/javascript">MathJax.Hub.Config({
+gtag('config', 'xx-xxxxxxx-xx');</script><link rel="stylesheet" href="/css/tocbot.css"><script src="/js/tocbot.js" defer></script><script>window.addEventListener('DOMContentLoaded', () => {
+  tocbot.init({
+    // Where to render the table of contents.
+    tocSelector: '.toc__content',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: '.article__content',
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    // For headings inside relative or absolute positioned containers within content.
+    hasInnerContainers: true,
+    orderedList: false,
+    collapseDepth: 2,
+  });
+})</script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script><script type="text/javascript">MathJax.Hub.Config({
   tex2jax: {
     inlineMath: [ ['$','$'], ["\\(","\\)"] ],
     processEscapes: true,
@@ -28,21 +41,139 @@ MathJax.Hub.Queue(function() {
       all[i].SourceElement().parentNode.className += ' has-jax';
   }
 });</script><link rel="preload" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css"><link rel="preload" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="A-Grain-Of-Sands" type="application/atom+xml">
-</head><body><div class="mask-border"></div><div class="head"><div class="head__inner"><h1><a href="/">A-Grain-Of-Sands</a></h1><p>a little site, a few techies</p></div></div><div class="paper-container"><div class="tag-view"><div class="main"><div class="location-bar"><div class="line-1"><div class="horizontal-line" style="height: 3px"></div></div><div class="line-2"><div class="horizontal-line" style="height: 1px"></div></div><p class="text">Tag: HeadFirstServlet</p><div class="switch-button"><input class="container_toggle" type="checkbox" id="switch" name="mode"><label for="switch">Toggle</label></div><div class="line-3"><div class="horizontal-line" style="height: 1px"></div></div></div><div class="main__2-col"><div class="posts"><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/04/10/7.%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E5%8C%85%E8%A3%85%E5%99%A8/">7. 过滤器和包装器</a></h2><span class="post__date">2021-04-10</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a><div class="posts-item__excerpt"><blockquote>
-<p>本文是我的 <em>Head First Servlet &amp; JSP 2nd Edition </em> 读书笔记。你可以在这里找到更多信息：<a target="_blank" rel="noopener" href="https://www.oreilly.com/library/view/head-first-servlets/9780596516680/">https://www.oreilly.com/library/view/head-first-servlets/9780596516680/</a></p>
+</head><body><div class="mask-border"></div><div class="head"><div class="head__inner"><h1><a href="/">A-Grain-Of-Sands</a></h1><p>a little site, a few techies</p></div></div><div class="paper-container"><div class="main"><div class="location-bar"><div class="line-1"><div class="horizontal-line" style="height: 3px"></div></div><div class="line-2"><div class="horizontal-line" style="height: 1px"></div></div><p class="text">主流语言对正则的支持</p><div class="switch-button"><input class="container_toggle" type="checkbox" id="switch" name="mode"><label for="switch">Toggle</label></div><div class="line-3"><div class="horizontal-line" style="height: 1px"></div></div></div><div class="main__2-col"><article class="post-view__article"><div class="article__infomation"><div class="posts-item"><h2 class="posts-item__title"><a href="">主流语言对正则的支持</a></h2><span class="post__date">2021-04-12</span><a href="/tags/RegExp/"><span class="post__tags">#RegExp</span></a></div></div><div class="article__content"><p>本文介绍了正则表达式的一些匹配模式，以及主流Perl流派语言对引用分组和逆序环视的支持情况，并讲解了两种常见的优化技巧。</p>
+<span id="more"></span>
+<h2 id="一、正则表达式匹配模式"><a href="#一、正则表达式匹配模式" class="headerlink" title="一、正则表达式匹配模式"></a>一、正则表达式匹配模式</h2><p>正则表达式除了常规的匹配模式外，还提供了一些额外的匹配模式，可以通过在语言中调用正则函数时指定预定义常量，或直接在表达式头书写模式修饰符中。推荐直接书写在表达式中，因为这样表达式可以直接在其他语言中复用。<br>模式修饰符写成 <code>(?modifier)</code> 的形式。它可以写在正则表达式的任意地方，并对它后面的表达式生效。除了使用修饰符外，也可以使用语言预定义的常量来启用模式。注意：<strong>内部修饰符的优先级高于预定义常量。</strong></p>
+<h3 id="不区分大小写模式"><a href="#不区分大小写模式" class="headerlink" title="不区分大小写模式"></a>不区分大小写模式</h3><p>在此模式下不会区分字母的大小写。使用 <code>(?s)</code> 启用。</p>
+<h3 id="单行模式"><a href="#单行模式" class="headerlink" title="单行模式"></a>单行模式</h3><p>单行模式下 <code>.</code> 会匹配 <code>\n</code> 换行符。使用 <code>(?s)</code> 启用。</p>
+<h3 id="多行模式"><a href="#多行模式" class="headerlink" title="多行模式"></a>多行模式</h3><p>多行模式可以与单行模式同时启用。多行模式下 <code>^</code> 和 <code>$</code> 匹配每行的开头和结尾。若需匹配文本的开头与结尾，请使用 <code>\A</code> 和 <code>\Z</code>。使用 <code>(?m)</code> 来启用。</p>
+<h3 id="注释模式"><a href="#注释模式" class="headerlink" title="注释模式"></a>注释模式</h3><p>复杂的正则表达式可能需要书写注释。在开头书写 <code>(?x)</code>后，就会自动忽略表达式内部的所有ASCII空白字符，此时可以用 <code>#comment</code>的方式来写注释。部分语言也支持在未开启注释模式的情况下使用 <code>(?#comment)</code> 的形式注释。</p>
+<h3 id="多种模式"><a href="#多种模式" class="headerlink" title="多种模式"></a>多种模式</h3><p>如果需要同时使用多种模式，只需写在一起就行了。例如，如果需要同时开启多行模式和注释模式，可以写成 <code>(?mx)</code> 的形式。对于预定义常量，可以使用 <code>|</code> 运算符连接多个常量。</p>
+<h3 id="取消模式"><a href="#取消模式" class="headerlink" title="取消模式"></a>取消模式</h3><p>你可能希望仅在表达式内部的某一段内使用特定模式。这时可以用 <code>(?-modifier)</code> 失效修饰符。</p>
+<blockquote>
+<p>例如，你需要查找任意大小写的 <code>foo</code> 和 <code>zee</code> 加上大写的 <code>BAR</code> 字符串。这时可以写成 <code>((?i)foo|zee)(?-i)BAR</code> 的形式。</p>
 </blockquote>
-<p>随着我们的web应用继续壮大，这样的需求也会出现：针对所有不同的用户交互，跟踪它们的运转情况。不，我们可不能去修改所有的Servlet！比较好的做法是，来个“过滤器”：</p></div></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/04/06/6.Web%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8/">6. Web应用安全</a></h2><span class="post__date">2021-04-06</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a><div class="posts-item__excerpt"><blockquote>
-<p>本文是我的 <em>Head First Servlet &amp; JSP 2nd Edition </em> 读书笔记。你可以在这里找到更多信息：<a target="_blank" rel="noopener" href="https://www.oreilly.com/library/view/head-first-servlets/9780596516680/">https://www.oreilly.com/library/view/head-first-servlets/9780596516680/</a></p>
-</blockquote></div></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/04/05/5.%E9%83%A8%E7%BD%B2web%E5%BA%94%E7%94%A8/">5.部署Web应用</a></h2><span class="post__date">2021-04-05</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a><div class="posts-item__excerpt"><blockquote>
-<p>本文是我的 <em>Head First Servlet &amp; JSP 2nd Edition </em> 读书笔记。你可以在这里找到更多信息：<a target="_blank" rel="noopener" href="https://www.oreilly.com/library/view/head-first-servlets/9780596516680/">https://www.oreilly.com/library/view/head-first-servlets/9780596516680/</a></p>
-</blockquote></div></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/03/29/4.%20%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86/">4. 会话管理</a></h2><span class="post__date">2021-03-29</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a><div class="posts-item__excerpt"><blockquote>
-<p>本文是我的 <em>Head First Servlet &amp; JSP 2nd Edition </em> 读书笔记。你可以在这里找到更多信息：<a target="_blank" rel="noopener" href="https://www.oreilly.com/library/view/head-first-servlets/9780596516680/">https://www.oreilly.com/library/view/head-first-servlets/9780596516680/</a></p>
-</blockquote>
-<p>现在有了新的需求：我们要打造一个能和客户对话的应用——用户回答一个问题后，我们的应用就能根据上一个回答提出新的问题！</p></div></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/03/27/3.%20%E5%B1%9E%E6%80%A7%E5%92%8C%E7%9B%91%E5%90%AC%E8%80%85/">3. 属性和监听者</a></h2><span class="post__date">2021-03-27</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a><div class="posts-item__excerpt"><blockquote>
-<p>本文是我的 <em>Head First Servlet &amp; JSP 2nd Edition </em> 读书笔记。你可以在这里找到更多信息：<a target="_blank" rel="noopener" href="https://www.oreilly.com/library/view/head-first-servlets/9780596516680/">https://www.oreilly.com/library/view/head-first-servlets/9780596516680/</a></p>
-</blockquote>
-<p>有时候我们会需要在web应用中设置一些初始值（比如，自己的Email地址），但是又不想硬编码到代码中。最佳解决方案可能是编写到描述文件(web.xml)里。我们知道Servlet可以接受请求参数，不过Servlet还可以有初始化参数。</p></div></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/03/25/2.%20Servlet%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94/">2. Servlet请求和响应</a></h2><span class="post__date">2021-03-25</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a><div class="posts-item__excerpt"><blockquote>
-<p>本文是我的 <em>Head First Servlet &amp; JSP 2nd Edition </em> 读书笔记。你可以在这里找到更多信息：<a target="_blank" rel="noopener" href="https://www.oreilly.com/library/view/head-first-servlets/9780596516680/">https://www.oreilly.com/library/view/head-first-servlets/9780596516680/</a></p>
-</blockquote></div></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/03/20/1.Web%E5%BA%94%E7%94%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/">1. Web应用体系结构</a></h2><span class="post__date">2021-03-20</span><a href="/tags/Servlet/"><span class="post__tags">#Servlet</span></a><a href="/tags/JavaWeb/"><span class="post__tags">#JavaWeb</span></a><a href="/tags/HeadFirstServlet/"><span class="post__tags">#HeadFirstServlet</span></a><div class="posts-item__excerpt"><blockquote>
-<p>本文是我的 <em>Head First Servlet &amp; JSP 2nd Edition</em> 读书笔记。你可以在这里找到更多信息：<a target="_blank" rel="noopener" href="https://www.oreilly.com/library/view/head-first-servlets/9780596516680/">https://www.oreilly.com/library/view/head-first-servlets/9780596516680/</a></p>
-</blockquote></div></div></div><div class="sidebar"><h2>Links</h2><div class="sidebar__link"><ul><li><a target="_blank" rel="noopener" href="https://github.com/gloryalex">Github</a></li><li><a href="mailto:gloryxie@icloud.com">Mail</a></li><li><a href="/atom.xml">Rss</a></li></ul></div><h2>Archives</h2><div class="sidebar__archives"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li></ul></div><h2>Categories</h2><div class="sidebar__categories"><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></li></ul></div><h2>Tags</h2><div class="sidebar__tags"><ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/EffectiveJava/" rel="tag">EffectiveJava</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HeadFirstServlet/" rel="tag">HeadFirstServlet</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java/" rel="tag">Java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaWeb/" rel="tag">JavaWeb</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RegExp/" rel="tag">RegExp</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Servlet/" rel="tag">Servlet</a></li></ul></div></div></div><div class="horizontal-line" style="height: 1px"></div><div class="main__bottom"><div class="paginator"><span class="page-number current">1</span></div></div></div></div></div><div class="footer"><span>©️2019-2021 Designed By&nbsp;<strong><a target="_blank" rel="noopener" href="https://github.com/random-yang">RandomYang</a></strong> Powered By&nbsp;</span><strong><a target="_blank" rel="noopener" href="https://hexo.io">hexo</a></strong></div><div class="darkmode-mask" id="darkmode-mask"></div><div class="sidebar__button"></div></body></html>
+<p>大部分语言都支持失效修饰符(JavaScript除外)。</p>
+<h2 id="二、主流语言对正则特性的支持"><a href="#二、主流语言对正则特性的支持" class="headerlink" title="二、主流语言对正则特性的支持"></a>二、主流语言对正则特性的支持</h2><h3 id="引用分组"><a href="#引用分组" class="headerlink" title="引用分组"></a>引用分组</h3><p>几乎所有主流语言都支持引用分组，但它们的记法并不相同。<br>引用分组的记法如下表所示：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>语言</th>
+<th>表达式中的反向引用</th>
+<th>替换中的反向引用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.NET</td>
+<td><code>\num</code></td>
+<td><code>$num</code></td>
+</tr>
+<tr>
+<td>Java</td>
+<td><code>\num</code></td>
+<td><code>$num</code></td>
+</tr>
+<tr>
+<td>JavaScript</td>
+<td><code>$num</code></td>
+<td><code>$num</code></td>
+</tr>
+<tr>
+<td>PHP</td>
+<td><code>\num</code></td>
+<td><code>$num</code>或 <code>\num</code></td>
+</tr>
+<tr>
+<td>Python</td>
+<td><code>\num</code></td>
+<td><code>\num</code></td>
+</tr>
+<tr>
+<td>Ruby</td>
+<td><code>\num</code></td>
+<td><code>\num</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>此外，支持引用分组的语言一般都支持命名分组。</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">语言</th>
+<th style="text-align:center">引用记法</th>
+<th style="text-align:center">表达式中的引用记法</th>
+<th style="text-align:center">替换时的引用记法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Java</td>
+<td style="text-align:center"><code>(?&lt;name&gt;...)</code></td>
+<td style="text-align:center"><code>\k&lt;name&gt;</code></td>
+<td style="text-align:center"><code>$&#123;name&#125;</code></td>
+</tr>
+<tr>
+<td style="text-align:center">.NET</td>
+<td style="text-align:center"><code>(?&lt;name&gt;...)</code></td>
+<td style="text-align:center"><code>\k&lt;name&gt;</code></td>
+<td style="text-align:center"><code>$&#123;name&#125;</code></td>
+</tr>
+<tr>
+<td style="text-align:center">PHP</td>
+<td style="text-align:center"><code>(?P&lt;name&gt;...)</code></td>
+<td style="text-align:center"><code>(?P=name)</code></td>
+<td style="text-align:center">不支持</td>
+</tr>
+<tr>
+<td style="text-align:center">Python</td>
+<td style="text-align:center"><code>(?P&lt;name&gt;...)</code></td>
+<td style="text-align:center"><code>(?P=name)</code></td>
+<td style="text-align:center"><code>\g&lt;name&gt;</code></td>
+</tr>
+<tr>
+<td style="text-align:center">Ruby</td>
+<td style="text-align:center"><code>(?&lt;name&gt;...)</code></td>
+<td style="text-align:center"><code>\k&lt;name&gt;</code></td>
+<td style="text-align:center"><code>\k&lt;name&gt;</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="环视"><a href="#环视" class="headerlink" title="环视"></a>环视</h3><p>基本所有语言都支持肯定及否定正向环视。但逆序环视的实现较为复杂，而且可能会消耗大量资源。许多语言虽然支持环视，但并不支持逆序环视，或者可能有特定的限制。</p>
+<ul>
+<li>JavaScript：不支持逆序环视。如果确实需要肯定逆向环视，可以使用多选+分组结构实现。但否定逆向环视无论如何也无法实现。</li>
+<li>Python 及 Ruby：支持，但逆序环视的表达式匹配的文本长度必须是固定的。例如，<ul>
+<li><code>(?&lt;=(dog|cat))</code>是合法的</li>
+<li><code>(?=dogs?)</code>或<code>(?=(dog|sheep))</code>是不合法的，因为其长度不固定</li>
+</ul>
+</li>
+<li>PHP：逆序环视长度可以不固定，但必须是确定的数值。例如，<ul>
+<li><code>(?=(dogs|cat))</code>是合法的</li>
+<li><code>(?=(dogs?|cats?))</code>是不合法的。</li>
+<li>注意：长度固定但不同的多选分支，必须出现在顶级多选结构中,即<code>(?&lt;=ab(c|de))</code>是不合法的。</li>
+</ul>
+</li>
+<li>Java：长度可以不固定，但必须有上限。例如，<ul>
+<li><code>(?&lt;!(dogs?|cats?))</code>是合法的</li>
+<li><code>(?&lt;!(dogs&#123;1,&#125;))</code>是不合法的，因为分组长度无上限</li>
+</ul>
+</li>
+<li>.NET：没有任何限制。</li>
+</ul>
+<h2 id="三、优化技巧"><a href="#三、优化技巧" class="headerlink" title="三、优化技巧"></a>三、优化技巧</h2><p>Perl流派的正则表达式通常都使用NFA实现，因此优化也基于此。常见的优化手段有：</p>
+<h3 id="独立文本和位置"><a href="#独立文本和位置" class="headerlink" title="独立文本和位置"></a>独立文本和位置</h3><p>在字符串匹配中，固定位置的字符匹配效率更高。虽然正则并非普通的字符串匹配，但是若能提取出固定的部分用于匹配，则定位的能力会提高，从而提高效率。</p>
+<p>如，对于正则表达式<code>(this|that|those|these)</code>而言，其具有相同的前缀，将其改写为<code>th(is|at|ose|ese)</code>能够提高其效率。提取后缀也有相同的效果。</p>
+<p>此外，也能对<strong>量词</strong>使用相同的技巧。对于<code>=+</code>而言，改写为<code>==*</code>会更好；对于<code>=&#123;4&#125;</code>，也可以改为<code>====</code>。在部分语言中，能取得近百倍的效率提升。</p>
+<p>同样的道理，<strong>锚点</strong>也能提取出来。对于<code>(^this|^what)</code>这样的表达式，不如改为<code>^(this|what)</code>.</p>
+<h3 id="避免重复匹配"><a href="#避免重复匹配" class="headerlink" title="避免重复匹配"></a>避免重复匹配</h3><p>重复匹配会大大降低效率。因此，要注意以下两种情况：</p>
+<ol>
+<li>类似<code>reg1*reg2*</code>这样带量词的结构，避免<code>reg1</code>和<code>reg2</code>能够匹配相同的内容。</li>
+<li>类似<code>(reg1|reg2)</code>这样的多选结构，避免<code>reg1</code>和<code>reg2</code>能够匹配相同的内容。</li>
+</ol>
+<hr>
+<p>参考资料：《精通正则表达式》</p>
+</div></article><div class="post-view__sidebar"><div class="sidebar"><div class="tocbot"><h2>Toc</h2><div class="toc__content"></div></div><h2>Links</h2><div class="sidebar__link"><ul><li><a target="_blank" rel="noopener" href="https://github.com/gloryalex">Github</a></li><li><a href="mailto:gloryxie@icloud.com">Mail</a></li><li><a href="/atom.xml">Rss</a></li></ul></div><h2>Archives</h2><div class="sidebar__archives"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li></ul></div><h2>Categories</h2><div class="sidebar__categories"><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></li></ul></div><h2>Tags</h2><div class="sidebar__tags"><ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/EffectiveJava/" rel="tag">EffectiveJava</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HeadFirstServlet/" rel="tag">HeadFirstServlet</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java/" rel="tag">Java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaWeb/" rel="tag">JavaWeb</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RegExp/" rel="tag">RegExp</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Servlet/" rel="tag">Servlet</a></li></ul></div></div></div></div><div class="horizontal-line" style="height: 1px"></div><div class="main__bottom"><div class="pre-next"><a class="pre-button">没有更多</a><a class="next-button" href="/2021/04/11/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1/">一. 创建和销毁对象</a></div></div></div></div><div class="footer"><span>©️2019-2021 Designed By&nbsp;<strong><a target="_blank" rel="noopener" href="https://github.com/random-yang">RandomYang</a></strong> Powered By&nbsp;</span><strong><a target="_blank" rel="noopener" href="https://hexo.io">hexo</a></strong></div><div class="darkmode-mask" id="darkmode-mask"></div><div class="sidebar__button"></div></body></html>

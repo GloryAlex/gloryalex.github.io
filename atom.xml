@@ -6,7 +6,7 @@
   <link href="http://gloryalex.github.io/atom.xml" rel="self"/>
   
   <link href="http://gloryalex.github.io/"/>
-  <updated>2021-04-11T14:01:30.225Z</updated>
+  <updated>2021-04-12T13:44:39.505Z</updated>
   <id>http://gloryalex.github.io/</id>
   
   <author>
@@ -17,23 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>主流语言对正则的支持</title>
+    <link href="http://gloryalex.github.io/2021/04/12/%E4%B8%BB%E6%B5%81%E8%AF%AD%E8%A8%80%E5%AF%B9%E6%AD%A3%E5%88%99%E7%9A%84%E6%94%AF%E6%8C%81/"/>
+    <id>http://gloryalex.github.io/2021/04/12/%E4%B8%BB%E6%B5%81%E8%AF%AD%E8%A8%80%E5%AF%B9%E6%AD%A3%E5%88%99%E7%9A%84%E6%94%AF%E6%8C%81/</id>
+    <published>2021-04-11T16:00:00.000Z</published>
+    <updated>2021-04-12T13:44:39.505Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文介绍了正则表达式的一些匹配模式，以及主流Perl流派语言对引用分组和逆序环视的支持情况，并讲解了两种常见的优化技巧。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="RegExp" scheme="http://gloryalex.github.io/tags/RegExp/"/>
+    
+  </entry>
+  
+  <entry>
     <title>一. 创建和销毁对象</title>
     <link href="http://gloryalex.github.io/2021/04/11/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1/"/>
     <id>http://gloryalex.github.io/2021/04/11/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1/</id>
     <published>2021-04-10T16:00:00.000Z</published>
-    <updated>2021-04-11T14:01:30.225Z</updated>
+    <updated>2021-04-12T13:45:35.286Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;本文是我的 &lt;em&gt;Effective Java 3rd Edition&lt;/em&gt; 读书笔记。本书翻译较差，建议阅读英文版。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;1-用静态工厂代替构造器&quot;&gt;&lt;a</summary>
-        
-      
+&lt;/blockquote&gt;</summary>
     
     
     
@@ -51,17 +63,13 @@
     <link href="http://gloryalex.github.io/2021/04/10/7.%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E5%8C%85%E8%A3%85%E5%99%A8/"/>
     <id>http://gloryalex.github.io/2021/04/10/7.%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E5%8C%85%E8%A3%85%E5%99%A8/</id>
     <published>2021-04-09T16:00:00.000Z</published>
-    <updated>2021-04-11T13:28:23.750Z</updated>
+    <updated>2021-04-12T13:47:43.755Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition &lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a</summary>
-        
-      
+&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition &lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a href=&quot;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&quot;&gt;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;随着我们的web应用继续壮大，这样的需求也会出现：针对所有不同的用户交互，跟踪它们的运转情况。不，我们可不能去修改所有的Servlet！比较好的做法是，来个“过滤器”：&lt;/p&gt;</summary>
     
     
     
@@ -81,17 +89,12 @@
     <link href="http://gloryalex.github.io/2021/04/06/6.Web%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8/"/>
     <id>http://gloryalex.github.io/2021/04/06/6.Web%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8/</id>
     <published>2021-04-05T16:00:00.000Z</published>
-    <updated>2021-04-11T13:29:24.703Z</updated>
+    <updated>2021-04-12T13:46:50.104Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition &lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a</summary>
-        
-      
+&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition &lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a href=&quot;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&quot;&gt;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
@@ -111,17 +114,12 @@
     <link href="http://gloryalex.github.io/2021/04/05/5.%E9%83%A8%E7%BD%B2web%E5%BA%94%E7%94%A8/"/>
     <id>http://gloryalex.github.io/2021/04/05/5.%E9%83%A8%E7%BD%B2web%E5%BA%94%E7%94%A8/</id>
     <published>2021-04-04T16:00:00.000Z</published>
-    <updated>2021-04-11T11:20:38.169Z</updated>
+    <updated>2021-04-12T13:46:46.722Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition &lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a</summary>
-        
-      
+&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition &lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a href=&quot;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&quot;&gt;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
@@ -141,17 +139,13 @@
     <link href="http://gloryalex.github.io/2021/03/29/4.%20%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86/"/>
     <id>http://gloryalex.github.io/2021/03/29/4.%20%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86/</id>
     <published>2021-03-28T16:00:00.000Z</published>
-    <updated>2021-04-11T09:41:27.201Z</updated>
+    <updated>2021-04-12T13:49:58.503Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition &lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a</summary>
-        
-      
+&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition &lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a href=&quot;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&quot;&gt;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;现在有了新的需求：我们要打造一个能和客户对话的应用——用户回答一个问题后，我们的应用就能根据上一个回答提出新的问题！&lt;/p&gt;</summary>
     
     
     
@@ -171,17 +165,13 @@
     <link href="http://gloryalex.github.io/2021/03/27/3.%20%E5%B1%9E%E6%80%A7%E5%92%8C%E7%9B%91%E5%90%AC%E8%80%85/"/>
     <id>http://gloryalex.github.io/2021/03/27/3.%20%E5%B1%9E%E6%80%A7%E5%92%8C%E7%9B%91%E5%90%AC%E8%80%85/</id>
     <published>2021-03-26T16:00:00.000Z</published>
-    <updated>2021-04-11T11:13:14.302Z</updated>
+    <updated>2021-04-12T13:46:26.612Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition &lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a</summary>
-        
-      
+&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition &lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a href=&quot;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&quot;&gt;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有时候我们会需要在web应用中设置一些初始值（比如，自己的Email地址），但是又不想硬编码到代码中。最佳解决方案可能是编写到描述文件(web.xml)里。我们知道Servlet可以接受请求参数，不过Servlet还可以有初始化参数。&lt;/p&gt;</summary>
     
     
     
@@ -201,17 +191,12 @@
     <link href="http://gloryalex.github.io/2021/03/25/2.%20Servlet%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94/"/>
     <id>http://gloryalex.github.io/2021/03/25/2.%20Servlet%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94/</id>
     <published>2021-03-24T16:00:00.000Z</published>
-    <updated>2021-04-11T11:13:25.715Z</updated>
+    <updated>2021-04-12T13:46:19.569Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition &lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a</summary>
-        
-      
+&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition &lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a href=&quot;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&quot;&gt;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
@@ -231,17 +216,12 @@
     <link href="http://gloryalex.github.io/2021/03/20/1.Web%E5%BA%94%E7%94%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
     <id>http://gloryalex.github.io/2021/03/20/1.Web%E5%BA%94%E7%94%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</id>
     <published>2021-03-19T16:00:00.000Z</published>
-    <updated>2021-04-11T11:15:59.712Z</updated>
+    <updated>2021-04-12T13:45:56.467Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition&lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a</summary>
-        
-      
+&lt;p&gt;本文是我的 &lt;em&gt;Head First Servlet &amp;amp; JSP 2nd Edition&lt;/em&gt; 读书笔记。你可以在这里找到更多信息：&lt;a href=&quot;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&quot;&gt;https://www.oreilly.com/library/view/head-first-servlets/9780596516680/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
