@@ -6,7 +6,7 @@
   <link href="http://gloryalex.github.io/atom.xml" rel="self"/>
   
   <link href="http://gloryalex.github.io/"/>
-  <updated>2021-04-12T13:44:39.505Z</updated>
+  <updated>2021-04-14T12:02:54.277Z</updated>
   <id>http://gloryalex.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>二. Object 方法</title>
+    <link href="http://gloryalex.github.io/2021/04/14/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20Object%20%E6%96%B9%E6%B3%95/"/>
+    <id>http://gloryalex.github.io/2021/04/14/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20Object%20%E6%96%B9%E6%B3%95/</id>
+    <published>2021-04-13T16:00:00.000Z</published>
+    <updated>2021-04-14T12:02:54.277Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文是我的 &lt;em&gt;Effective Java 3rd Edition&lt;/em&gt; 读书笔记。本书翻译较差，建议阅读英文版。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本章节阐述对于所有对象都通用的那些方法，比如&lt;code&gt;equals&lt;/code&gt;, &lt;code&gt;hashCode&lt;/code&gt;和&lt;code&gt;clone&lt;/code&gt;等方法所需要注意的事项。&lt;br&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="EffectiveJava" scheme="http://gloryalex.github.io/tags/EffectiveJava/"/>
+    
+    <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>主流语言对正则的支持</title>
@@ -40,12 +64,13 @@
     <link href="http://gloryalex.github.io/2021/04/11/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1/"/>
     <id>http://gloryalex.github.io/2021/04/11/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1/</id>
     <published>2021-04-10T16:00:00.000Z</published>
-    <updated>2021-04-12T13:45:35.286Z</updated>
+    <updated>2021-04-14T12:02:49.789Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;本文是我的 &lt;em&gt;Effective Java 3rd Edition&lt;/em&gt; 读书笔记。本书翻译较差，建议阅读英文版。&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
+&lt;/blockquote&gt;
+&lt;p&gt;本章节阐述在创建和销毁对象时所需要注意的事项。&lt;br&gt;</summary>
     
     
     
