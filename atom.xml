@@ -6,7 +6,7 @@
   <link href="http://gloryalex.github.io/atom.xml" rel="self"/>
   
   <link href="http://gloryalex.github.io/"/>
-  <updated>2021-04-14T12:08:49.139Z</updated>
+  <updated>2021-05-20T08:05:42.227Z</updated>
   <id>http://gloryalex.github.io/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>三. 类和接口</title>
+    <link href="http://gloryalex.github.io/2021/05/20/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%B1%BB%E5%92%8C%E6%8E%A5%E5%8F%A3/"/>
+    <id>http://gloryalex.github.io/2021/05/20/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%B1%BB%E5%92%8C%E6%8E%A5%E5%8F%A3/</id>
+    <published>2021-05-19T16:00:00.000Z</published>
+    <updated>2021-05-20T08:05:42.227Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文是我的 &lt;em&gt;Effective Java 3rd Edition&lt;/em&gt; 读书笔记。本书翻译较差，建议阅读英文版。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt; 本章主要阐述了关于Java的基本抽象：类和接口相关的一些原则和实践指导。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="EffectiveJava" scheme="http://gloryalex.github.io/tags/EffectiveJava/"/>
+    
+    <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
     <title>二. Object 方法</title>
     <link href="http://gloryalex.github.io/2021/04/14/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20Object%20%E6%96%B9%E6%B3%95/"/>
     <id>http://gloryalex.github.io/2021/04/14/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20Object%20%E6%96%B9%E6%B3%95/</id>
     <published>2021-04-13T16:00:00.000Z</published>
-    <updated>2021-04-14T12:08:49.139Z</updated>
+    <updated>2021-05-20T08:00:46.075Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
