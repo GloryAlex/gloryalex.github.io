@@ -316,7 +316,7 @@ MathJax.Hub.Queue(function() {
 <p>第三个文件则是 Dessert.java, 它的内容却是：</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Utensil</span></span>&#123;<br>  <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String NAME = <span class="hljs-string">&quot;pot&quot;</span>;<br>&#125;<br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Dessert</span></span>&#123;<br>  <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String NAME = <span class="hljs-string">&quot;pie&quot;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
 <p>如果你侥幸用命令<code>javac Main.java Dessert.java</code>来编译程序，那么编译就会失败。但不巧你用了<code>javac Main.java Utensil.java</code>，则结果是<code>pancake</code>. 类似的，如果你用命令<code>javac Dessert.java Main.java</code>来编译，就会输出<code>potpie</code>. 程序的行为取决于源文件被传给编译器的顺序，就显然是不可取的。</p>
-<p>修正方法是把每个顶级类都放在一个单独的源文件中。如果你非要放在一个源文件里，可以用静态内部类。但千万不要把它们放在一个源文件里！否则，程序的行为可能会非常地不可控。</p>
+<p>正确的做法是把每个顶级类都放在一个单独的源文件中。如果你非要放在一个源文件里，可以用静态内部类。但千万不要把它们放在一个源文件里！否则，程序的行为可能会非常地不可控。</p>
 <blockquote id="fn_1">
 <sup>1</sup>. 子类可以在任意地方替换父类。<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
 </blockquote>
