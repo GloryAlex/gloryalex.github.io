@@ -6,7 +6,7 @@
   <link href="http://gloryalex.github.io/atom.xml" rel="self"/>
   
   <link href="http://gloryalex.github.io/"/>
-  <updated>2021-06-04T08:46:09.281Z</updated>
+  <updated>2021-10-06T09:19:42.857Z</updated>
   <id>http://gloryalex.github.io/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>四. 泛型</title>
+    <link href="http://gloryalex.github.io/2021/10/05/Effective%20Java%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%AC%AC%E5%9B%9B%E7%AB%A0%20%E6%B3%9B%E5%9E%8B/"/>
+    <id>http://gloryalex.github.io/2021/10/05/Effective%20Java%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%AC%AC%E5%9B%9B%E7%AB%A0%20%E6%B3%9B%E5%9E%8B/</id>
+    <published>2021-10-04T16:00:00.000Z</published>
+    <updated>2021-10-06T09:19:42.857Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本章探讨关于泛型的话题。泛型从 Java 5 开始成为语言的一部分，它保证了编译期的类型安全。本章告诉你如何最大限度地享用泛型带来的优势，又不至于为它所累。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Effective Java" scheme="http://gloryalex.github.io/tags/Effective-Java/"/>
+    
+    <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
     <title>三. 类和接口</title>
     <link href="http://gloryalex.github.io/2021/05/20/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%B1%BB%E5%92%8C%E6%8E%A5%E5%8F%A3/"/>
     <id>http://gloryalex.github.io/2021/05/20/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%B1%BB%E5%92%8C%E6%8E%A5%E5%8F%A3/</id>
     <published>2021-05-19T16:00:00.000Z</published>
-    <updated>2021-06-04T08:46:09.281Z</updated>
+    <updated>2021-06-04T08:46:09.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -34,9 +55,9 @@
     <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="EffectiveJava" scheme="http://gloryalex.github.io/tags/EffectiveJava/"/>
-    
     <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
+    
+    <category term="EffectiveJava" scheme="http://gloryalex.github.io/tags/EffectiveJava/"/>
     
   </entry>
   
@@ -45,7 +66,7 @@
     <link href="http://gloryalex.github.io/2021/04/14/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20Object%20%E6%96%B9%E6%B3%95/"/>
     <id>http://gloryalex.github.io/2021/04/14/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20Object%20%E6%96%B9%E6%B3%95/</id>
     <published>2021-04-13T16:00:00.000Z</published>
-    <updated>2021-05-20T08:00:46.075Z</updated>
+    <updated>2021-05-20T08:00:46.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -58,9 +79,9 @@
     <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="EffectiveJava" scheme="http://gloryalex.github.io/tags/EffectiveJava/"/>
-    
     <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
+    
+    <category term="EffectiveJava" scheme="http://gloryalex.github.io/tags/EffectiveJava/"/>
     
   </entry>
   
@@ -69,7 +90,7 @@
     <link href="http://gloryalex.github.io/2021/04/12/%E4%B8%BB%E6%B5%81%E8%AF%AD%E8%A8%80%E5%AF%B9%E6%AD%A3%E5%88%99%E7%9A%84%E6%94%AF%E6%8C%81/"/>
     <id>http://gloryalex.github.io/2021/04/12/%E4%B8%BB%E6%B5%81%E8%AF%AD%E8%A8%80%E5%AF%B9%E6%AD%A3%E5%88%99%E7%9A%84%E6%94%AF%E6%8C%81/</id>
     <published>2021-04-11T16:00:00.000Z</published>
-    <updated>2021-04-12T13:44:39.505Z</updated>
+    <updated>2021-04-12T13:44:39.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文介绍了正则表达式的一些匹配模式，以及主流Perl流派语言对引用分组和逆序环视的支持情况，并讲解了两种常见的优化技巧。&lt;/p&gt;</summary>
@@ -88,7 +109,7 @@
     <link href="http://gloryalex.github.io/2021/04/11/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1/"/>
     <id>http://gloryalex.github.io/2021/04/11/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1/</id>
     <published>2021-04-10T16:00:00.000Z</published>
-    <updated>2021-04-14T12:02:49.789Z</updated>
+    <updated>2021-04-14T12:02:49.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -101,9 +122,9 @@
     <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="EffectiveJava" scheme="http://gloryalex.github.io/tags/EffectiveJava/"/>
-    
     <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
+    
+    <category term="EffectiveJava" scheme="http://gloryalex.github.io/tags/EffectiveJava/"/>
     
   </entry>
   
@@ -112,7 +133,7 @@
     <link href="http://gloryalex.github.io/2021/04/10/7.%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E5%8C%85%E8%A3%85%E5%99%A8/"/>
     <id>http://gloryalex.github.io/2021/04/10/7.%E8%BF%87%E6%BB%A4%E5%99%A8%E5%92%8C%E5%8C%85%E8%A3%85%E5%99%A8/</id>
     <published>2021-04-09T16:00:00.000Z</published>
-    <updated>2021-04-12T13:47:43.755Z</updated>
+    <updated>2021-04-12T13:47:43.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -138,7 +159,7 @@
     <link href="http://gloryalex.github.io/2021/04/06/6.Web%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8/"/>
     <id>http://gloryalex.github.io/2021/04/06/6.Web%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8/</id>
     <published>2021-04-05T16:00:00.000Z</published>
-    <updated>2021-04-12T13:46:50.104Z</updated>
+    <updated>2021-04-12T13:46:50.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -163,7 +184,7 @@
     <link href="http://gloryalex.github.io/2021/04/05/5.%E9%83%A8%E7%BD%B2web%E5%BA%94%E7%94%A8/"/>
     <id>http://gloryalex.github.io/2021/04/05/5.%E9%83%A8%E7%BD%B2web%E5%BA%94%E7%94%A8/</id>
     <published>2021-04-04T16:00:00.000Z</published>
-    <updated>2021-04-12T13:46:46.722Z</updated>
+    <updated>2021-04-12T13:46:46.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -188,7 +209,7 @@
     <link href="http://gloryalex.github.io/2021/03/29/4.%20%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86/"/>
     <id>http://gloryalex.github.io/2021/03/29/4.%20%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86/</id>
     <published>2021-03-28T16:00:00.000Z</published>
-    <updated>2021-04-12T13:49:58.503Z</updated>
+    <updated>2021-04-12T13:49:58.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -214,7 +235,7 @@
     <link href="http://gloryalex.github.io/2021/03/27/3.%20%E5%B1%9E%E6%80%A7%E5%92%8C%E7%9B%91%E5%90%AC%E8%80%85/"/>
     <id>http://gloryalex.github.io/2021/03/27/3.%20%E5%B1%9E%E6%80%A7%E5%92%8C%E7%9B%91%E5%90%AC%E8%80%85/</id>
     <published>2021-03-26T16:00:00.000Z</published>
-    <updated>2021-04-12T13:46:26.612Z</updated>
+    <updated>2021-04-12T13:46:26.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -240,7 +261,7 @@
     <link href="http://gloryalex.github.io/2021/03/25/2.%20Servlet%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94/"/>
     <id>http://gloryalex.github.io/2021/03/25/2.%20Servlet%E8%AF%B7%E6%B1%82%E5%92%8C%E5%93%8D%E5%BA%94/</id>
     <published>2021-03-24T16:00:00.000Z</published>
-    <updated>2021-04-12T13:46:19.569Z</updated>
+    <updated>2021-04-12T13:46:19.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -265,7 +286,7 @@
     <link href="http://gloryalex.github.io/2021/03/20/1.Web%E5%BA%94%E7%94%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
     <id>http://gloryalex.github.io/2021/03/20/1.Web%E5%BA%94%E7%94%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</id>
     <published>2021-03-19T16:00:00.000Z</published>
-    <updated>2021-04-12T13:45:56.467Z</updated>
+    <updated>2021-04-12T13:45:56.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
