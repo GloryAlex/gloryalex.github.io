@@ -6,7 +6,7 @@
   <link href="http://gloryalex.github.io/atom.xml" rel="self"/>
   
   <link href="http://gloryalex.github.io/"/>
-  <updated>2021-10-06T09:19:42.857Z</updated>
+  <updated>2021-10-06T09:24:37.985Z</updated>
   <id>http://gloryalex.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>四. 泛型</title>
-    <link href="http://gloryalex.github.io/2021/10/05/Effective%20Java%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%AC%AC%E5%9B%9B%E7%AB%A0%20%E6%B3%9B%E5%9E%8B/"/>
-    <id>http://gloryalex.github.io/2021/10/05/Effective%20Java%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%AC%AC%E5%9B%9B%E7%AB%A0%20%E6%B3%9B%E5%9E%8B/</id>
+    <link href="http://gloryalex.github.io/2021/10/05/%E7%AC%AC%E5%9B%9B%E7%AB%A0%20%E6%B3%9B%E5%9E%8B/"/>
+    <id>http://gloryalex.github.io/2021/10/05/%E7%AC%AC%E5%9B%9B%E7%AB%A0%20%E6%B3%9B%E5%9E%8B/</id>
     <published>2021-10-04T16:00:00.000Z</published>
-    <updated>2021-10-06T09:19:42.857Z</updated>
+    <updated>2021-10-06T09:24:37.985Z</updated>
     
     
     <summary type="html">&lt;p&gt;本章探讨关于泛型的话题。泛型从 Java 5 开始成为语言的一部分，它保证了编译期的类型安全。本章告诉你如何最大限度地享用泛型带来的优势，又不至于为它所累。&lt;/p&gt;</summary>
@@ -31,9 +31,9 @@
     <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Effective Java" scheme="http://gloryalex.github.io/tags/Effective-Java/"/>
-    
     <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
+    
+    <category term="Effective Java" scheme="http://gloryalex.github.io/tags/Effective-Java/"/>
     
   </entry>
   
@@ -55,9 +55,9 @@
     <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
-    
     <category term="EffectiveJava" scheme="http://gloryalex.github.io/tags/EffectiveJava/"/>
+    
+    <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
     
   </entry>
   
@@ -79,9 +79,9 @@
     <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
-    
     <category term="EffectiveJava" scheme="http://gloryalex.github.io/tags/EffectiveJava/"/>
+    
+    <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
     
   </entry>
   
@@ -122,9 +122,9 @@
     <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
-    
     <category term="EffectiveJava" scheme="http://gloryalex.github.io/tags/EffectiveJava/"/>
+    
+    <category term="Java" scheme="http://gloryalex.github.io/tags/Java/"/>
     
   </entry>
   
