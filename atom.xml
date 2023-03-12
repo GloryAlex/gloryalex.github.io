@@ -6,7 +6,7 @@
   <link href="http://gloryalex.github.io/atom.xml" rel="self"/>
   
   <link href="http://gloryalex.github.io/"/>
-  <updated>2021-10-06T09:24:37.985Z</updated>
+  <updated>2023-03-12T08:39:38.814Z</updated>
   <id>http://gloryalex.github.io/</id>
   
   <author>
@@ -15,6 +15,137 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AppleScript 基本语法</title>
+    <link href="http://gloryalex.github.io/2023/03/12/AppleScript%E5%B0%8F%E7%BB%93/"/>
+    <id>http://gloryalex.github.io/2023/03/12/AppleScript%E5%B0%8F%E7%BB%93/</id>
+    <published>2023-03-11T16:00:00.000Z</published>
+    <updated>2023-03-12T08:39:38.814Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;AppleScript-是什么&quot;&gt;&lt;a href=&quot;#AppleScript-是什么&quot; class=&quot;headerlink&quot; title=&quot;AppleScript 是什么&quot;&gt;&lt;/a&gt;AppleScript 是什么&lt;/h2&gt;&lt;p&gt;AppleScript</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="AppleScript" scheme="http://gloryalex.github.io/tags/AppleScript/"/>
+    
+    <category term="脚本" scheme="http://gloryalex.github.io/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>刻意练习</title>
+    <link href="http://gloryalex.github.io/2023/03/11/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/"/>
+    <id>http://gloryalex.github.io/2023/03/11/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/</id>
+    <published>2023-03-10T16:00:00.000Z</published>
+    <updated>2023-03-12T08:43:46.014Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;怎样提高水平&quot;&gt;&lt;a href=&quot;#怎样提高水平&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="效率" scheme="http://gloryalex.github.io/categories/%E6%95%88%E7%8E%87/"/>
+    
+    
+    <category term="自我提升" scheme="http://gloryalex.github.io/tags/%E8%87%AA%E6%88%91%E6%8F%90%E5%8D%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Raft 基本实现</title>
+    <link href="http://gloryalex.github.io/2022/10/12/Raft%E5%9F%BA%E6%9C%AC%E5%AE%9E%E7%8E%B0/"/>
+    <id>http://gloryalex.github.io/2022/10/12/Raft%E5%9F%BA%E6%9C%AC%E5%AE%9E%E7%8E%B0/</id>
+    <published>2022-10-11T16:00:00.000Z</published>
+    <updated>2023-03-12T08:19:22.327Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Raft-基本实现&quot;&gt;&lt;a href=&quot;#Raft-基本实现&quot; class=&quot;headerlink&quot; title=&quot;Raft 基本实现&quot;&gt;&lt;/a&gt;Raft 基本实现&lt;/h1&gt;&lt;h2 id=&quot;一致性问题&quot;&gt;&lt;a href=&quot;#一致性问题&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Raft" scheme="http://gloryalex.github.io/tags/Raft/"/>
+    
+    <category term="分布式" scheme="http://gloryalex.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MapReduce 原理</title>
+    <link href="http://gloryalex.github.io/2022/08/01/MapReduce/"/>
+    <id>http://gloryalex.github.io/2022/08/01/MapReduce/</id>
+    <published>2022-07-31T16:00:00.000Z</published>
+    <updated>2023-03-12T08:32:31.339Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;基本模型&quot;&gt;&lt;a href=&quot;#基本模型&quot; class=&quot;headerlink&quot; title=&quot;基本模型&quot;&gt;&lt;/a&gt;基本模型&lt;/h2&gt;&lt;p&gt;MapReduce 的基本原理是利用一个 key-value 对来产生一个输出的 key-value</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="http://gloryalex.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="MapReduce" scheme="http://gloryalex.github.io/tags/MapReduce/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BeanCount 复式记账</title>
+    <link href="http://gloryalex.github.io/2022/05/21/BeanCount/"/>
+    <id>http://gloryalex.github.io/2022/05/21/BeanCount/</id>
+    <published>2022-05-20T16:00:00.000Z</published>
+    <updated>2023-03-12T08:42:38.704Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;基本原理&quot;&gt;&lt;a href=&quot;#基本原理&quot; class=&quot;headerlink&quot; title=&quot;基本原理&quot;&gt;&lt;/a&gt;基本原理&lt;/h2&gt;&lt;p&gt;复式记账的基本原理在于会计恒等式：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;资产 = 负债 + 所有者权益&lt;br&gt;收入 -</summary>
+        
+      
+    
+    
+    
+    <category term="理财" scheme="http://gloryalex.github.io/categories/%E7%90%86%E8%B4%A2/"/>
+    
+    
+    <category term="记帐" scheme="http://gloryalex.github.io/tags/%E8%AE%B0%E5%B8%90/"/>
+    
+  </entry>
   
   <entry>
     <title>四. 泛型</title>
