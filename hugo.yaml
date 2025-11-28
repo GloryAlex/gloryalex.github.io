@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://gloryalex.github.io/"
 title: A Grain of Sand
 theme: PaperMod
 
@@ -19,7 +19,7 @@ params:
   description: "A blog about tech, programming, and life."
   keywords: [Blog, Tech]
   author: Glory Xie
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: []
   # DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -86,11 +86,6 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/GloryAlex/a-grain-of-sand/content/"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
   # # for search
   # # https://fusejs.io/api/options.html
   # fuseOpts:
@@ -112,17 +107,17 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: about
+      name: about
+      url: /about/
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
